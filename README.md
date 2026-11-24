@@ -10,7 +10,7 @@ I believe computers should understand us. Software should simplify our lives. In
 
 [Corvid](https://corvid-lang.org/) is an open-source programming language built for a world where intelligence is native, not an afterthought.
 
-What if the compiler checked your AI before it ever ran?
+**An AI agent that can refund real money, safely.**
 
 ```
 @budget($1.00)
@@ -20,7 +20,7 @@ agent refund(id: String) -> Receipt:
     return issue_refund(id)
 ```
 
-Delete the `approve` line and it doesn't compile.
+Delete the `approve` line and it doesn't compile. The AI call, the money and the safety rules live in one language, and the compiler checks all of them before anything runs.
 
 - Cost budgets, checked at compile time
 - Typed model output
