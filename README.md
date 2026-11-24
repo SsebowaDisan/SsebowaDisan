@@ -8,16 +8,27 @@ I believe computers should understand us. Software should simplify our lives. In
 
 ## Building Corvid
 
-[Corvid](https://github.com/Micrurus-Ai/Corvid-lang) is an open-source programming language built for a world where intelligence is native, not an afterthought.
+[Corvid](https://corvid-lang.org/) is an open-source programming language built for a world where intelligence is native, not an afterthought.
 
 What if the compiler checked your AI before it ever ran?
 
-- A compiler that checks AI before it runs: cost budgets, typed model output, and approval before dangerous actions
+```
+@budget($1.00)
+@trust(human_required)
+agent refund(id: String) -> Receipt:
+    approve IssueRefund(id)
+    return issue_refund(id)
+```
+
+Delete the `approve` line and it doesn't compile.
+
+- Cost budgets, checked at compile time
+- Typed model output
+- Approval required before dangerous actions
 - One language for the interface, the backend and the AI
 - Every run can be replayed, without calling the model again
-- Open source under the MIT license
 
-Corvid is pre-1.0 and under active development. Start with the [repository](https://github.com/Micrurus-Ai/Corvid-lang) and the quickstart.
+[Website](https://corvid-lang.org/) · [GitHub](https://github.com/Micrurus-Ai/Corvid-lang)
 
 ## Also building
 
@@ -34,3 +45,7 @@ Corvid is pre-1.0 and under active development. Start with the [repository](http
 - The way things have always been done is not a reason to keep doing them.
 
 *Don't just improve what exists. Imagine what should exist.*
+
+## Find me
+
+[LinkedIn](https://www.linkedin.com/in/disanbssebowa/)
