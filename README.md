@@ -6,16 +6,24 @@ I'm a software engineer and builder exploring what computing could be if we star
 
 I believe computers should understand us. Software should simplify our lives. Intelligence should empower us. And technology should always remain under our control.
 
-## Building what's next
+## Building Corvid
 
-### [alo OS](https://github.com/aloworld-org/alo-os)
-What if we built the operating system for the age of intelligence?
+[Corvid](https://github.com/Micrurus-Ai/Corvid-lang) is an open-source programming language built for a world where intelligence is native, not an afterthought.
 
-### [alo browser](https://github.com/aloworld-org/alo-browser)
-What if navigating the web was as natural as asking a question?
+What if the compiler checked your AI before it ever ran?
 
-### [Corvid](https://github.com/Micrurus-Ai/Corvid-lang)
-What if programming languages were designed for a world where intelligence is native, not an afterthought?
+- A compiler that checks AI before it runs: cost budgets, typed model output, and approval before dangerous actions
+- One language for the interface, the backend and the AI
+- Every run can be replayed, without calling the model again
+- Open source under the MIT license
+
+Corvid is pre-1.0 and under active development. Start with the [repository](https://github.com/Micrurus-Ai/Corvid-lang) and the quickstart.
+
+## Also building
+
+[alo OS](https://github.com/aloworld-org/alo-os): the operating system for the age of intelligence.
+
+[alo browser](https://github.com/aloworld-org/alo-browser): navigating the web as naturally as asking a question.
 
 ## A few things I believe
 
